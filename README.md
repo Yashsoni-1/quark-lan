@@ -4,6 +4,8 @@
 
 # Language used - Python
 
+## S - Expressions
+
 ## Self-evaluating expressions
 ## Environment 
 ### Environment Interface
@@ -33,4 +35,15 @@
 #C++ - int x = 10; std::cout << x // 10 {x = 20; std::cout << x // 20} std::cout << x // 20
 #Javascript - (var x 10) (print x) // 10 (begin(set x 20); (print x) // 20) (print x) // 20
 
+-- Operator Overloading
+## Closure : a function which captures its definition environment
+-- All functions in quark are closures
+-- activation record - static linking(the one where the fn is defined not where it is called(dynamic linking))
 
+## Lambda Expression with IILE property
+#Python - lambda x: x * x
+#Javascript - x => x * x;
+#Quark - (lambda (x) (* x x))
+
+## Class - a named environment which can be instantiated and create objects
+## Module Objects - a named first class environment
