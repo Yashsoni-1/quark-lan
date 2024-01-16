@@ -2,7 +2,6 @@
 
 2.1 - 5:00
 
-# Language used - Python
 
 ## S - Expressions
 
@@ -39,6 +38,7 @@
 ## Closure : a function which captures its definition environment
 -- All functions in quark are closures
 -- activation record - static linking(the one where the fn is defined not where it is called(dynamic linking))
+-- First class functions - which cna 
 
 ## Lambda Expression with IILE property
 #Python - lambda x: x * x
@@ -47,3 +47,15 @@
 
 ## Class - a named environment which can be instantiated and create objects
 ## Module Objects - a named first class environment
+
+- Developed an interpreter for a Quark programming language with syntax resembling JavaScript and Python, enabling code interpretation and execution through semantic analysis and a runtime environment.
+** Implemented low-level advanced features such as first-class functions, lambdas, closures, and activation records, showcasing a strong understanding of functional programming principles. Additionally, incorporated object-oriented programming (OOP) concepts, including the design and implementation of classes and inheritance structures, demonstrating versatility in both functional and object-oriented paradigms.
+- Implemented low-level advanced features such as first-class functions, lambdas, closures, and activation records. Additionally, incorporated object-oriented programming (OOP) concepts, including the design and implementation of classes and inheritance structures.
+
+
+
+
+
+
+
+
